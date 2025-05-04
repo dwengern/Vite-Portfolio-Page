@@ -1,13 +1,13 @@
 export default [
     {
         title: 'Portfolio App',
-        imgUrl: 'assets/portfolio-app.jpg',
+        imgUrl: 'assets/new-port.jpg',
         stack: ['React', 'Tailwind', 'Vite'],
         link: 'https://github.com/dwengern',
     },
     {
         title: 'Chemistry Inventory Management App',
-        imgUrl: 'assets/chem-project.jpg',
+        imgUrl: 'assets/new-chem-app.jpg',
         stack: ['Django', 'HTML', 'Javascript', 'SQL'],
         link: 'https://github.com/dwengern',
     },
