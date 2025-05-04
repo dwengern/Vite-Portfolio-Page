@@ -2,7 +2,7 @@
   "name": "my-portfolio",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://dwengern.github.io/Vite-Portfolio-Page/",
+  "homepage": "https://dwengern.github.io/nicholas-dwenger-portfolio",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -30,7 +30,7 @@
     "gh-pages": "^6.3.0",
     "globals": "^15.15.0",
     "postcss": "^8.5.3",
-    "tailwindcss": "^4.0.12",
+    "tailwindcss": "^4.1.5",
     "vite": "^6.2.0"
   }
 }

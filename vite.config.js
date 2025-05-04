@@ -8,7 +8,7 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-  base: '/Vite-Portfolio-Page/',
+  base: '/nicholas-dwenger-portfolio/',
   resolve: {
     extensions: ['.js', '.jsx', '.ts', '.tsx'], // This helps Vite resolve imports without extensions
   },
