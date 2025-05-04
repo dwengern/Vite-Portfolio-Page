@@ -8,5 +8,18 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-  base: '/Vite-Portfolio-Page/'
+  base: '/Vite-Portfolio-Page/',
+  resolve: {
+    extensions: ['.js', '.jsx', '.ts', '.tsx'], // This helps Vite resolve imports without extensions
+  },
+  build: {
+    rollupOptions: {
+      output: {
+        // Ensures the correct file extensions and MIME types for production
+        entryFileNames: 'assets/[name].[hash].js',
+        chunkFileNames: 'assets/[name].[hash].js',
+        assetFileNames: 'assets/[name].[hash].[ext]'
+      }
+    }
+  }
 })
